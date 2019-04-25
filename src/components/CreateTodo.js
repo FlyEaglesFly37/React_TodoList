@@ -35,7 +35,7 @@ export default class CreateTodo extends Component {
     onSubmit = (e) => {
         e.preventDefault();
 
-        console.log(`Form Submitted:`);
+        console.log(`Form Submitted!`);
         console.log(`Todo Description: ${this.state.todo_description}`);
         console.log(`Todo Responsible: ${this.state.todo_responsible}`);
         console.log(`Todo Priority: ${this.state.todo_priority}`);
@@ -107,7 +107,7 @@ export default class CreateTodo extends Component {
                         </div>
                     </div>
                     <div className="form-group">
-                        <input type="submit" value="Create Todo" className="btn btn-primary" />
+                        <input type="submit" value="Create Todo" className="btn btn-success" />
                     </div>
                 </form>
             </div>
